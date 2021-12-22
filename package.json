@@ -4,7 +4,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "test": "vite-jest  --no-cache"
+    "test": "vite-jest  --no-cache --forceExit"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
